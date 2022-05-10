@@ -7,19 +7,40 @@
     <link rel="stylesheet" href="/styles/styles.css" />
     <title>malbeer</title>
   </head>
+
   <body>
     <div class="carousel">
       <div class="items-wrapper">
-        <div class="item">
-          <img src="./assets/banner-1.png" alt="banner" />
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+
+        <div class="banner first">
+          <img src="./assets/banner1.png" alt="banner1" />
         </div>
-        <div class="item">
-          <img src="./assets/banner-1.png" alt="banner" />
+
+        <div class="banner">
+          <img src="./assets/banner2.png" alt="banner2" />
         </div>
-        <div class="item">
-          <img src="./assets/banner-1.png" alt="banner" />
+
+        <div class="banner">
+          <img src="./assets/banner3.png" alt="banner3" />
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
         </div>
       </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
